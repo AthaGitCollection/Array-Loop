@@ -16,9 +16,11 @@ Answer : The code checks numbers from 1 to 50 using a for loop. If a number is a
 2.2 LAB 2 : Show of multiplication of 2
 
 1.Without if statement you can see on my repistory
+
 2.i will give the screenshot of the program in the end of this README.md
 
 2.3 Lab 3 : The Triangle
+
 1.The program is modified to use a FOR loop instead of a WHILE loop.
 A for loop is more compact because it places initialization, condition, and increment all in one line.
 Both loops perform the same task, but using for makes the code shorter and easier to read.
