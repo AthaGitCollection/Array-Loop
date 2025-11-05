@@ -8,7 +8,7 @@ public class DoWhileLeaveEntitlementNoAbsen4 {
         String confirmation;
 
         do {
-            System.out.print("Do you want to take a leave (y/n)? ");
+            System.out.print("Do you want to take a leave (y/n/t)? ");
             confirmation = input.next();
 
             if (confirmation.equalsIgnoreCase("y")) {
@@ -19,12 +19,16 @@ public class DoWhileLeaveEntitlementNoAbsen4 {
                     leaveEntitlement -= numLeave;
                     System.out.println("Remaining leave entitlement: " + leaveEntitlement);
                 } else {
-                    System.out.println("You dont have enough leave entitlement");
-                    
+                    System.out.println("You don’t have enough leave entitlement");
                 }
+            } 
+            else if (confirmation.equalsIgnoreCase("t")) {
+                System.out.println("Program stopped by user.");
+                break;
             }
-        } while (leaveEntitlement > 0);
-    }   
-}
 
-        
+        } while (leaveEntitlement > 0);
+
+        input.close();
+    }
+}
