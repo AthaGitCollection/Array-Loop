@@ -27,3 +27,16 @@ Both loops perform the same task, but using for makes the code shorter and easie
 2.The statement s += " *" means that the value " *" is added to the existing value of s.
 It works because the += operator can be used for string concatenation in Java.
 When used with strings, Java automatically combines the text rather than performing arithmetic operations.
+
+2.4 Lab 4 : Calculating leave Entitlement
+
+1.The break statement is used to immediately stop the loop execution, even if the loop condition is still true.
+In this program, it stops the loop when the user requests more leave days than available entitlement.
+
+2.Done
+
+3.Done
+
+4.If the user types "t", the program will do nothing and loop again, because it only checks for "y" (yes) as the valid input.
+
+5.

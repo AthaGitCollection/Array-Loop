@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class DoWhileLeaveEntitlementNoAbsen4 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int leaveEntitlement = 5;
+        int leaveEntitlement = 10;
         int numLeave;
         String confirmation;
 
@@ -20,7 +20,7 @@ public class DoWhileLeaveEntitlementNoAbsen4 {
                     System.out.println("Remaining leave entitlement: " + leaveEntitlement);
                 } else {
                     System.out.println("You dont have enough leave entitlement");
-                    break;
+                    
                 }
             }
         } while (leaveEntitlement > 0);
