@@ -20,4 +20,11 @@ if remove it, all the stars will appear in one long line.
 # Experiment 4 : Guess the Number Quiz
 1. the program flow in experiment 4 is making a random number and ask user to guess until the answer is correct, after done guessing it will ask the user to repeat it again.
 2. Type N when the question Do you want to repeat the game (Y/N)
-3. 
+3. Done
+4. Done
+
+# Assignment
+1. Done
+2. Done
+3. Done
+4. Done
