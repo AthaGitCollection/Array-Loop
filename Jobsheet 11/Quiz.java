@@ -14,10 +14,12 @@ public class Quiz {
                int answer = input.nextInt();
                input.nextLine();
                success = (answer == number);
+
             } while (!success);
             System.out.println("Do you want to repeat the game (Y/N)");
             menu = input.next().charAt(0);
             input.nextLine();
+            
         } while (menu == 'y' || menu == 'Y' );
         input.close();
         }
