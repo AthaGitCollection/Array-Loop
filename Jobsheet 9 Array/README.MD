@@ -12,4 +12,5 @@
 4. Done
 
 # Experiment 3 : Perform Arithmetic Operations on Array Elements
-1.
+1. Done
+2. Done
