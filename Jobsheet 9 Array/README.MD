@@ -14,3 +14,10 @@
 # Experiment 3 : Perform Arithmetic Operations on Array Elements
 1. Done
 2. Done
+
+# Experiment 4 : Searching 
+1. The break statement on line 13 serves to immediately exit the loop once the search key is found
+2. Done
+3. Done
+
+## ASSIGNMENT
