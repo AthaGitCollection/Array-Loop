@@ -17,8 +17,10 @@ public class Cinema4 {
         System.out.printf("%s \t %s \n", audience[3][0], audience[3][1]);
 
         
-        for (String[] rowAudience : audience) {
-            System.out.println("Length of row: " + rowAudience.length);
-        }
+        System.out.println("Audiences in the row 3: ");
+for (String i : audience[2]) {
+    System.out.println(i);
+}
+
     }
 }
